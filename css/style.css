@@ -8,8 +8,18 @@ height: 100vh;
     width: 100%; 
 }
 
-  @media (max-width: 600px) {
-    .project-title {
-      
-    }
+#navbar {
+  top: 0;
+}
+
+.always_top{
+  position: fixed;
+  top: 0;
+  background-color: blue;
+}
+
+@media (max-width: 1000px){
+  div.always_top{
+    background-color: red;
   }
+}

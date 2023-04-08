@@ -3,5 +3,17 @@ height: 100vh;
 }
 
 #navbar {
-    top: 0;
+  top: 0;
+}
+
+.always_top{
+  position: fixed;
+  top: 0;
+  background-color: blue;
+}
+
+@media (max-width: 1000px){
+  div.always_top{
+    background-color: red;
   }
+}

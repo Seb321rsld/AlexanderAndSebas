@@ -1,3 +1,5 @@
+
+
 #welcome-section{
 height: 100vh;
  
@@ -18,8 +20,4 @@ height: 100vh;
   background-color: blue;
 }
 
-@media (max-width: 1000px){
-  div.always_top{
-    background-color: red;
-  }
-}
+
